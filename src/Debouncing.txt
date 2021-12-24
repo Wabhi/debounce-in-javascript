@@ -1,0 +1,11 @@
+//https://medium.com/@griffinmichl/implementing-debounce-in-javascript-eab51a12311e
+Debouncing in Javascript is an exercise to enhance browser performance during any time-consuming computations. 
+If such a method is invoked frequently then it may degrade our web app performance. Debouncing is a programming practice used to ensure that a time-consuming task does not fire so often. In other words, it limits rates at which functions get invoked
+
+Application ==>
+Debouncing can be implemented where searching works like when the user will be typing in the search box and the search results will come from the server. 
+There we can hit server API after the user stops typing(after a certain delay). 
+Here if on every change there is frequent server API hit then it will degrade our server performance very much.
+Another application of debouncing is in content-loading webpages like Facebook and Twitter where the user keeps on scrolling. 
+In these scenarios, if the scroll event is fired too frequently, there might be a performance impact, as it contains lots of videos and images. 
+Thus the scroll event must make use of debouncing.
